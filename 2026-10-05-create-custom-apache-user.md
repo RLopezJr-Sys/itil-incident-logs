@@ -18,11 +18,11 @@ As part of xFusionCorp Industries' security hardening initiative for web applica
 - **Home Directory:** `/var/www/siva`
 
 ## Diagnostics & Execution Steps
-1. **Access Control:** Logged into the central control jump-host (`thor@jump-host`)[cite: 2].
+1. **Access Control:** Logged into the central control jump-host (`thor@jump-host`).
 2. **Remote Connection:** Established an SSH session to Application Server 3 utilizing the designated administrative user account (`banner@stapp03`) and corresponding credentials.
 3. **User Provisioning:** Executed the `useradd` utility with elevated privileges (`sudo`) to configure the user with the exact parameter constraints:
    ```bash
-   sudo useradd -u 1106 -d /var/www/siva -m sivactures, and remote multi-node server management
+   sudo useradd -u 1106 -d /var/www/siva -m siva, and remote multi-node server management
 
 
 **Verification:**
